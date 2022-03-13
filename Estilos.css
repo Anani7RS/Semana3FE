@@ -1,0 +1,166 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.space-a{
+    justify-content: space-around;
+}
+
+.contenedor >div{
+    display:flex;
+    font-family: 'Franklin Gothic Medium';
+}
+/*colores*/
+.colorAzul{
+    color: blue;
+}
+.colorNegro{
+    color: black;
+}
+.colorRGB{
+    color:rgb(255, 255, 255);
+}
+
+.colorRGBA{
+    color: rgba(70, 73, 70, 0.6);
+}
+
+.color{
+   color:black;
+   font-size:20px;
+   font-weight: 700;
+}
+
+.colorA{
+    color:rgba(0, 238, 255, 0.493);
+    font-size:20px;
+ }
+/*textos*/
+.izquierda{
+    text-align: left;
+}
+
+.derecha{
+    text-align: right;
+}
+
+.centro{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    text-align: left; 
+    height: 30px;   
+}
+
+.linkFondo{
+    text-decoration: none;
+    background-color: #0448db;
+    border-radius: 7%;
+    text-align: left; 
+    height: 70px;  
+}
+
+.link2{
+    text-decoration: none;
+    background-color: #b4edff;
+    border-radius: 7%;
+    text-align: left; 
+    height: 70px;  
+}
+
+.linkImagen{
+    text-decoration: none;
+    color: black;
+    text-align: left; 
+    height: 30px;   
+}
+
+/*fondos*/
+.fondoColor{
+    width: 600px;
+    height: 50px;
+    background-color: #6fdada;
+    float: right;
+    opacity: 0.8; 
+}
+
+.fondoOp{
+    width: 320px;
+    height: 50px;
+    background-color: #b9f7f4;
+    float: right;
+    opacity: 0.8; 
+}
+
+.fondoBlanco{
+    background-color: #6edaf5;
+    width: 600px;
+    height: 100px;
+    position: left;
+}
+
+.fondoA{
+    width: 260px;
+    height: 200px;
+    background-color: #b2eeee;
+    background-position: 100px 100px;
+    opacity: 0.8; 
+    border-radius: 7%;
+}
+
+.fondoG{
+    width: 260px;
+    height: 200px;
+    background-color: #e0e6e6;
+    background-position: 100px 100px;
+    opacity: 0.8; 
+    border-radius: 7%;
+}
+
+.Imagen{
+    width: 800px;
+    height: 505px;
+    background-image: url("C:/Users/Anny Rios/Documents/CursoLaunchX/FrontEnd/Semana3/Vacuna.jpg");
+    float: right;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 550px;
+}
+.imagen2{
+    width: 580px;
+    height: 300px;
+    background-image: url("C:/Users/Anny Rios/Documents/CursoLaunchX/FrontEnd/Semana3/enfermera.png");
+    float: left;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+.imagen3{
+    width: 580px;
+    height: 505px;
+    background-image: url("C:/Users/Anny Rios/Documents/CursoLaunchX/FrontEnd/Semana3/enfermero.jpg");
+    float: right;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+.footer {
+    background-color: rgb(180, 235, 248);
+    color: white;
+    background-position:center;
+}
